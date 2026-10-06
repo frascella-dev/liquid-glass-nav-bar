@@ -1,0 +1,30 @@
+<!doctype html><meta charset=utf-8>
+<style>
+:root{--bg1:#ff9a4d;--bg2:#ff3d7f;--bg3:#7c4dff;--bg4:#18b6e8;--tx:#fff;--glass:rgba(255,255,255,.22);--edge:rgba(255,255,255,.55);--ic:#fff;--lens:rgba(255,255,255,.34);--sel:#fff}
+body.dark{--bg1:#2b1b6b;--bg2:#7a1f68;--bg3:#0b1d4d;--bg4:#0a6e8f;--glass:rgba(20,20,26,.42);--edge:rgba(255,255,255,.16);--lens:rgba(255,255,255,.16)}
+*{box-sizing:border-box}body{margin:0;width:1280px;height:640px;position:relative;overflow:hidden;font-family:-apple-system,"SF Pro Display","Helvetica Neue",Arial,sans-serif;background:#111}
+.bd{position:absolute;inset:0;background:linear-gradient(135deg,var(--bg1),var(--bg2) 45%,var(--bg3))}
+.b{position:absolute;border-radius:50%;filter:blur(2px)}
+.b1{width:420px;height:420px;left:-80px;top:-120px;background:radial-gradient(circle at 35% 35%,#fff3,var(--bg4))}
+.b2{width:360px;height:360px;right:80px;top:20px;background:radial-gradient(circle at 40% 40%,#ffe27a,var(--bg1))}
+.b3{width:520px;height:520px;right:-140px;bottom:-240px;background:radial-gradient(circle,var(--bg4),transparent 70%)}
+.b4{width:300px;height:300px;left:330px;bottom:-120px;background:radial-gradient(circle,#fff5,var(--bg2))}
+.wave{position:absolute;left:0;right:0;bottom:0;height:300px}
+h1{position:absolute;left:0;right:0;top:112px;margin:0;text-align:center;color:var(--tx);font-size:84px;font-weight:700;letter-spacing:-2px;text-shadow:0 6px 30px rgba(0,0,0,.25)}
+p{position:absolute;left:0;right:0;top:218px;margin:0;text-align:center;color:var(--tx);opacity:.92;font-size:30px;font-weight:500;text-shadow:0 2px 16px rgba(0,0,0,.25)}
+.bar{position:absolute;left:290px;width:700px;top:340px;height:120px;border-radius:60px;background:var(--glass);backdrop-filter:blur(26px) saturate(1.8);-webkit-backdrop-filter:blur(26px) saturate(1.8);border:2px solid var(--edge);box-shadow:0 24px 60px rgba(0,0,0,.28),inset 0 2px 0 rgba(255,255,255,.35);display:flex;padding:0 14px;align-items:center}
+.it{flex:1;height:96px;border-radius:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:var(--ic);font-size:17px;font-weight:600;position:relative}
+.it svg{width:38px;height:38px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.sel{background:var(--lens);box-shadow:inset 0 0 0 2px var(--edge),inset 0 2px 0 rgba(255,255,255,.4);margin:0 -6px;transform:scale(1.12,1.18);z-index:1}
+</style>
+<body class="__M__">
+<div class=bd></div><div class="b b1"></div><div class="b b2"></div><div class="b b3"></div><div class="b b4"></div>
+<svg class=wave viewBox="0 0 1280 300" preserveAspectRatio=none><path d="M0 120C200 40 340 200 560 120S980 20 1280 130V300H0Z" fill="#0b1020" opacity=".28"/><path d="M0 190C240 110 400 260 640 190S1040 120 1280 200V300H0Z" fill="#0b1020" opacity=".4"/></svg>
+<h1>liquid_glass_nav_bar</h1><p>A floating liquid-glass bottom navigation bar for Flutter</p>
+<div class=bar>
+<div class=it><svg viewBox="0 0 24 24"><circle cx=12 cy=12 r=9 /><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>Explore</div>
+<div class="it sel"><svg viewBox="0 0 24 24"><circle cx=11 cy=11 r=7 /><path d="M20 20l-4-4"/></svg>Discover</div>
+<div class=it><svg viewBox="0 0 24 24"><path d="M7 4h10v17l-5-4-5 4z"/></svg>Saved</div>
+<div class=it><svg viewBox="0 0 24 24"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15zM10 21h4"/></svg>Alerts</div>
+<div class=it><svg viewBox="0 0 24 24"><circle cx=12 cy=8 r=4 /><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>You</div>
+</div>

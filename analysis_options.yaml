@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+formatter:
+  page_width: 100
+
+analyzer:
+  exclude:
+    - build/**
+    - example/build/**
+
+linter:
+  rules:
+    - public_member_api_docs
+    - prefer_single_quotes
+    - curly_braces_in_flow_control_structures

@@ -1,0 +1,36 @@
+name: liquid_glass_nav_bar
+description: >-
+  A floating liquid-glass bottom navigation bar: a blurred capsule and a lens of glass
+  that follows your finger on springs. Light and dark, opaque accessibility fallback.
+version: 0.1.0
+homepage: https://github.com/frascella-dev/liquid_glass_nav_bar
+repository: https://github.com/frascella-dev/liquid_glass_nav_bar
+issue_tracker: https://github.com/frascella-dev/liquid_glass_nav_bar/issues
+topics:
+  - navigation-bar
+  - bottom-navigation
+  - liquid-glass
+  - glassmorphism
+  - ui
+screenshots:
+  - description: The bar over a colourful feed, light.
+    path: doc/screenshots/light.png
+  - description: The bar in dark.
+    path: doc/screenshots/dark.png
+  - description: The lens swollen under a finger.
+    path: doc/screenshots/lens.png
+  - description: The opaque fallback for Reduce Transparency.
+    path: doc/screenshots/opaque.png
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

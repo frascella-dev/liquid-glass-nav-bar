@@ -4,7 +4,7 @@
 
 # liquid_glass_nav_bar
 
-[![CI](https://github.com/frascella-dev/liquid_glass_nav_bar/actions/workflows/ci.yml/badge.svg)](https://github.com/frascella-dev/liquid_glass_nav_bar/actions/workflows/ci.yml)
+[![CI](https://github.com/frascella-dev/liquid-glass-nav-bar/actions/workflows/ci.yml/badge.svg)](https://github.com/frascella-dev/liquid-glass-nav-bar/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A floating bottom navigation bar of liquid glass for Flutter, the same on iOS and Android.
@@ -52,7 +52,7 @@ Until it is on pub.dev, depend on the repository:
 ```yaml
 dependencies:
   liquid_glass_nav_bar:
-    git: https://github.com/frascella-dev/liquid_glass_nav_bar.git
+    git: https://github.com/frascella-dev/liquid-glass-nav-bar.git
 ```
 
 ## Usage

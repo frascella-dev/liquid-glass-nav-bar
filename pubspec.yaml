@@ -3,9 +3,9 @@ description: >-
   A floating liquid-glass bottom navigation bar: a blurred capsule and a lens of glass
   that follows your finger on springs. Light and dark, opaque accessibility fallback.
 version: 0.1.0
-homepage: https://github.com/frascella-dev/liquid_glass_nav_bar
-repository: https://github.com/frascella-dev/liquid_glass_nav_bar
-issue_tracker: https://github.com/frascella-dev/liquid_glass_nav_bar/issues
+homepage: https://github.com/frascella-dev/liquid-glass-nav-bar
+repository: https://github.com/frascella-dev/liquid-glass-nav-bar
+issue_tracker: https://github.com/frascella-dev/liquid-glass-nav-bar/issues
 topics:
   - navigation-bar
   - bottom-navigation
